@@ -25,13 +25,8 @@
                 "protocol": "TCP",
                 "containerPort": 9080
               }
-            ],
-            "resources": {
-              "limits": {
-                "cpu": "0.5m",
-                "memory": "15Mi"
-              }
-            }
+            ]
+            
           }
         ],
         "imagePullSecrets": [
