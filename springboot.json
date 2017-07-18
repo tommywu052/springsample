@@ -9,7 +9,7 @@
     "template": {
       "metadata": {
         "labels": {
-          "app": "springbootLiberty",
+          "app": "springboot",
           "image": "master_cfc_8500_default_springboot_latest"
         }
       },
@@ -17,7 +17,7 @@
         "hostNetwork": false,
         "containers": [
           {
-            "name": "springbootLiberty",
+            "name": "springboot",
             "image": "master.cfc:8500/default/springboot:latest",
             "imagePullPolicy": "Always",
             "ports": [
