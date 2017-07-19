@@ -1,0 +1,6 @@
+<mirror>
+<!--This sends everything else to /public -->
+<id>nexus</id>
+<mirrorOf>*</mirrorOf>
+<url>http://88.8.111.206:8081/nexus/content/groups/public</url>
+</mirror>
